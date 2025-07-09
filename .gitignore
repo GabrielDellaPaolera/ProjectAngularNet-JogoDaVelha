@@ -1,0 +1,24 @@
+# === Angular / Node ===
+node_modules/
+dist/
+.angular/
+tmp/
+out-tsc/
+npm-debug.log
+yarn-error.log
+
+# === .NET / Visual Studio ===
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.dbmdl
+
+# === VS Code ===
+.vscode/
+.history/
+
+# === Sistema ===
+.DS_Store
+Thumbs.db
