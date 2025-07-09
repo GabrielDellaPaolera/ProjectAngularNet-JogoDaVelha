@@ -1,0 +1,10 @@
+<div class="container-center">
+ <div class="vencedores-box">
+  <h3>Últimos 10 Vencedores</h3>
+  <ul>
+    <li *ngFor="let r of ultimosVencedores">
+      {{ r.vencedor }} - {{ r.dataHora | date:'dd/MM/yyyy HH:mm' }}
+    </li>
+  </ul>
+ </div>
+</div>
