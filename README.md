@@ -61,8 +61,8 @@ ProjectAngularNet/
 ```bash
 git clone https://github.com/GabrielDellaPaolera/jogo-da-velha-angular-net.git
 cd ProjectAngularNet
+```
 
----
 
 ### 3. Configurar o Banco de Dados
 
@@ -75,6 +75,7 @@ cd ProjectAngularNet
   "DefaultConnection": "Host=localhost;Port=5432;Database=jogo_da_velha;Username=postgres;Password=SUA_SENHA_AQUI"
 }
 
+```
 
 ### 4. Rode as migrations:
 
